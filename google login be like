@@ -1,0 +1,10 @@
+otherslogin = ['nazar','xamit','anime_lover','hello1']
+mylogin = input("enter your acc login: ")
+if len(mylogin) > 5:
+    if mylogin in otherslogin:
+        print("alredy used")
+    else:
+        print("succeseful logined")
+        otherslogin.append(mylogin)
+else:
+    print("unsucceseful")
