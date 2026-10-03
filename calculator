@@ -1,0 +1,54 @@
+a = float(input("birinchi son:"))
+b = float(input("ikkinchi son:"))
+e = float(input("uchinchi son:"))
+c = input("bir va ikki ortasidagi belgi +,-,*,/:")
+f = input("ikki va uch ortasidagi belgi +,-,*,/:")
+d = "javobi:"
+if c == "+":
+    if f == "+":
+        print(d,a+b+e)
+if c == "+":
+    if f == "-":
+        print(d,a+b-e)
+if c == "+":
+    if f == "*":
+        print(d,a+b*e)
+if c == "+":
+    if f == "/":
+        print(d,a+b/e)
+if c == "-":
+    if f == "+":
+        print(d,a-b+e)
+if c == "-":
+    if f == "-":
+        print(d,a-b-e)
+if c == "-":
+    if f == "*":
+        print(d,a-b*e)
+if c == "-":
+    if f == "/":
+        print(d,a-b/e)
+if c == "*":
+    if f == "+":
+        print(d,a*b+e)
+if c == "*":
+    if f == "-":
+        print(d,a*b-e)
+if c == "*":
+    if f == "*":
+        print(d,a*b*e)
+if c == "*":
+    if f == "/":
+        print(d,a*b/e)
+if c == "/":
+    if f == "+":
+        print(d,a/b+e)
+if c == "/":
+    if f == "-":
+        print(d,a/b-e)
+if c == "/":
+    if f == "*":
+        print(d,a/b*e)
+if c == "/":
+    if f == "/":
+        print(d,a/b/e)
