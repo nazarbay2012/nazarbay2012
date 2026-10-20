@@ -1,0 +1,14 @@
+shop = ['non','choy','kalbasa']
+toys = ['teddy','labubo']
+print(f"siz magazinga bordingiz va {toys} sotip oldingiz")
+buy = input("va yana narsa sotip olishni hohlaysizmi? ")
+if buy.lower() == "ha":
+    print('nima sotip olishni xohlaysiz')
+    print(f'bizda {shop} bor')
+    a = input()
+    if a.lower in shop:
+        toys.append(a.lower)
+        print(f"siz {a} sotip oldingiz")
+        print(f"{toys}")
+    else:
+        print(f"kechirasiz bizda {a} yoq")
